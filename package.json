@@ -65,8 +65,7 @@
     "build": "npm run test && babel src --out-dir dist",
     "build:watch": "babel -w src --out-dir dist",
     "lint": "eslint .",
-    "lint:watch": "esw -w lib/**",
-    "prepare": "npm run build"
+    "lint:watch": "esw -w lib/**"
   },
   "commitlint": {
     "extends": [
